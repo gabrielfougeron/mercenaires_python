@@ -43,7 +43,7 @@ class Mercenaires:
 
         scene = [self.ascii_castle]
 
-        for i in range(-self.DistMidToCity,self.PosMerc):
+        for i in range(-self.DistMidToCity+1,self.PosMerc):
             scene.append(self.ascii_blank)
             scene.append(self.ascii_grass)
         
